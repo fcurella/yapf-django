@@ -11,4 +11,5 @@ i18n_function_call=['_']
 space_between_ending_comma_and_closing_bracket=False
 split_before_expression_after_opening_paren=True
 split_complex_comprehension=True
+blank_line_before_nested_class_or_def=True
 ```

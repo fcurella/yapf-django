@@ -49,6 +49,15 @@ split_before_expression_after_opening_paren=True
 #       if a_long_var % 10]
 split_complex_comprehension=True
 
+# Insert a blank line before a 'def' or 'class' immediately nested
+# within another 'def' or 'class'. For example:
+#
+#   class Foo:
+#                      # <------ this blank line
+#     def method():
+#       ...
+blank_line_before_nested_class_or_def=True
+
 # The i18n function call names. The presence of this function stops
 # reformattting on that line, because the string it has cannot be moved
 # away from the i18n comment.
